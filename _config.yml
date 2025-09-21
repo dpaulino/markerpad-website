@@ -1,34 +1,34 @@
 #page title
-page_title                                : Ambie White Noise                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Markerpad                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                :                                 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
-appstore_link                             : https://apps.microsoft.com/detail/9P07XNM5CHP0?cid=ambiesite                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+appstore_link                             : https://apps.microsoft.com/detail/9NH0WPDRK28T?cid=markerpadsite                                         # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : Ambie White Noise                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : Markerpad                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : Free                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Focus, study, or relax. Sounds for every mood.
+app_description                           : Ideas to formulas, notes to diagrams. Markerpad is a canvas for every need.
 
 enable_smart_app_banner                   : false                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 
 
 # Information About Yourself
-your_name                                 : Ambie Inc.                              
-your_link                                 : https://github.com/jenius-apps/ambie                    
+your_name                                 : Jenius Apps                              
+your_link                                 : https://apps.microsoft.com/detail/9NH0WPDRK28T?cid=markerpadsite                  
 your_city                                 : Vancouver, Canada                                
-email_address                             : feedback.ambie@outlook.com
-facebook_username                         : AmbieApp                                          
-instagram_username                        : ambie.app
-twitter_username                          : AmbieApp
-github_username                           : jenius-apps
-youtube_username                          : AmbieApp
+email_address                             : jenius_apps@outlook.com
+facebook_username                         :                                           
+instagram_username                        : 
+twitter_username                          : 
+github_username                           : dpaulino
+youtube_username                          : 
 mastodon_link                             : 
 
 
@@ -36,29 +36,29 @@ mastodon_link                             :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Sounds for your wellbeing
-    description                           : Relax to rain, cats purring, crickets, fireplace, and more.
-    fontawesome_icon_name                 : headphones
+  - title                                 : Your digital scratchpad
+    description                           : Use Markerpad for drawings, diagrams, ideas, or small notes. Anything you can imagine.
+    fontawesome_icon_name                 : lightbulb
+
+  - title                                 : Faster than light
+    description                           : Markerpad is designed for performance to keep up with your creativity.
+    fontawesome_icon_name                 : bolt
     
-  - title                                 : Focus timer
-    description                           : Boost your productivity using the built-in focus timer to help you work or study.
-    fontawesome_icon_name                 : bullseye
+  - title                                 : Auto-saves locally
+    description                           : Your work is saved offline and automatically. Reliable and zero friction.
+    fontawesome_icon_name                 : save
 
-  - title                                 : Mix and match
-    description                           : Play up to three sounds at the same time. Find your favourite ambience.
-    fontawesome_icon_name                 : layer-group
+  - title                                 : Cloud backup
+    description                           : Never lose your notes with available hassle-free backup.
+    fontawesome_icon_name                 : cloud
 
-  - title                                 : Download more sounds
-    description                           : New sounds can be downloaded from the built-in online catalogue. 
-    fontawesome_icon_name                 : download
-
-  - title                                 : Works on TVs
-    description                           : Download Ambie from the store on Xbox to chill with sounds on the big screen.
-    fontawesome_icon_name                 : tv
+  - title                                 : Designed for Pen
+    description                           : Supports left- and right-hand pen users, and can align with your OS settings.
+    fontawesome_icon_name                 : pen
   
-  - title                                 : Reliable and offline
-    description                           : Whether you're in airplane mode or just don't have internet, no problems. Ambie works offline.
-    fontawesome_icon_name                 : plane
+  - title                                 : Modern Windows design
+    description                           : Inspired by the Fluent Design system, Markerpad shines on Windows 11.
+    fontawesome_icon_name                 : laptop
 
 
 # Theme Settings
@@ -66,7 +66,7 @@ topbar_color                              : "#000000"
 topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
-cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
+cover_image                               : assets/headerimage.jpg                    # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#363b3d"
 cover_overlay_transparency                : 0.8
 
