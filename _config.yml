@@ -1,0 +1,126 @@
+#page title
+page_title                                : Ambie White Noise                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+
+# App Info
+ios_app_id                                :                                 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+
+appstore_link                             : https://apps.microsoft.com/detail/9P07XNM5CHP0?cid=ambiesite                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            :                                           # Enter Google Play Store URL.
+presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+
+app_icon                                  : assets/appicon.png                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : Ambie White Noise                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 : Free                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : Focus, study, or relax. Sounds for every mood.
+
+enable_smart_app_banner                   : false                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
+
+
+# Information About Yourself
+your_name                                 : Ambie Inc.                              
+your_link                                 : https://github.com/jenius-apps/ambie                    
+your_city                                 : Vancouver, Canada                                
+email_address                             : feedback.ambie@outlook.com
+facebook_username                         : AmbieApp                                          
+instagram_username                        : ambie.app
+twitter_username                          : AmbieApp
+github_username                           : jenius-apps
+youtube_username                          : AmbieApp
+mastodon_link                             : 
+
+
+
+# Feature List                            Edit, add or remove features to be presented.
+features                                  :
+
+  - title                                 : Sounds for your wellbeing
+    description                           : Relax to rain, cats purring, crickets, fireplace, and more.
+    fontawesome_icon_name                 : headphones
+    
+  - title                                 : Focus timer
+    description                           : Boost your productivity using the built-in focus timer to help you work or study.
+    fontawesome_icon_name                 : bullseye
+
+  - title                                 : Mix and match
+    description                           : Play up to three sounds at the same time. Find your favourite ambience.
+    fontawesome_icon_name                 : layer-group
+
+  - title                                 : Download more sounds
+    description                           : New sounds can be downloaded from the built-in online catalogue. 
+    fontawesome_icon_name                 : download
+
+  - title                                 : Works on TVs
+    description                           : Download Ambie from the store on Xbox to chill with sounds on the big screen.
+    fontawesome_icon_name                 : tv
+  
+  - title                                 : Reliable and offline
+    description                           : Whether you're in airplane mode or just don't have internet, no problems. Ambie works offline.
+    fontawesome_icon_name                 : plane
+
+
+# Theme Settings
+topbar_color                              : "#000000"
+topbar_transparency                       : 0.1
+topbar_title_color                        : "#ffffff"
+
+cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#363b3d"
+cover_overlay_transparency                : 0.8
+
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+
+body_background_color                     : "#ffffff"
+
+link_color                                : "#1d63ea"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#ffffff"
+app_description_color                     : "#ffffff"
+
+feature_title_color                       : "#000000"
+feature_text_color                        : "#666666"
+
+feature_icons_foreground_color            : "#1d63ea"
+feature_icons_background_color            : "#e6e6e6"
+
+social_icons_foreground_color             : "#666666"
+social_icons_background_color             : "#e6e6e6"
+
+footer_text_color                         : "#666666"
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
+markdown: kramdown
