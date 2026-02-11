@@ -13,7 +13,7 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/appicon.png                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Markerpad                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : Free                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Ideas to formulas, notes to diagrams. Markerpad is a canvas for every need.
+app_description                           : Ideas to formulas, notes to diagrams. Markerpad is a digital whiteboard app for every need.
 
 enable_smart_app_banner                   : false                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -36,7 +36,7 @@ mastodon_link                             :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Your digital scratchpad
+  - title                                 : Your digital whiteboard
     description                           : Use Markerpad for drawings, diagrams, ideas, or small notes. Anything you can imagine.
     fontawesome_icon_name                 : lightbulb
 
@@ -57,7 +57,7 @@ features                                  :
     fontawesome_icon_name                 : pen
   
   - title                                 : Modern Windows design
-    description                           : Inspired by the Fluent Design system, Markerpad shines on Windows 11.
+    description                           : Inspired by the Fluent Design system, Markerpad shines on Windows 10 and 11.
     fontawesome_icon_name                 : laptop
 
 
